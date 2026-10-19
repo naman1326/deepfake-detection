@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model checkpoints & weights (large binaries, >50MB)
+*.pth
+*.pt
+*.pkl
+*.h5
+*.hdf5
+*.onnx
+*.weights
+*.ckpt
+*.bin
+*.safetensors
+
+# Pretrained model weights (keep directory structure)
+pretrained_model/*
+!pretrained_model/.gitkeep
+!pretrained_model/README.md
+
+# Training & inference outputs
+output/*
+!output/.gitkeep
+!output/README.md
+*.avi
+
+# Datasets, raw media & extracted frame directories
+dataset/downloaded/
+FaceForensics/
+frames/
+subset/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+
+# User-specific local data lists & generated manifests
+data_list/my_*.txt
+*manifest*.csv
+*results*.csv
+*.log
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller & build
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter Notebook & IDEs
+.ipynb_checkpoints
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
